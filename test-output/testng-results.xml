@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6737" started-at="2019-03-19T00:10:44Z" finished-at="2019-03-19T00:10:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6737" started-at="2019-03-19T00:10:44Z" finished-at="2019-03-19T00:10:51Z">
+      <class name="com.selenium.webproject.testcases.filter_TestScenarios">
+        <test-method status="PASS" signature="invalidEmailSearch_wrongEmail()[pri:0, instance:com.selenium.webproject.testcases.filter_TestScenarios@4f80542f]" name="invalidEmailSearch_wrongEmail" duration-ms="2456" started-at="2019-03-19T00:10:44Z" description="Email Invalid Search criteria-Contains" finished-at="2019-03-19T00:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailSearch_wrongEmail -->
+        <test-method status="PASS" signature="invalidUserNameSearch_wrongUserName()[pri:0, instance:com.selenium.webproject.testcases.filter_TestScenarios@4f80542f]" name="invalidUserNameSearch_wrongUserName" duration-ms="1253" started-at="2019-03-19T00:10:47Z" description="Username Invalid Search criteria-Contains" finished-at="2019-03-19T00:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNameSearch_wrongUserName -->
+        <test-method status="PASS" signature="validEmailSearch_correctEmail()[pri:0, instance:com.selenium.webproject.testcases.filter_TestScenarios@4f80542f]" name="validEmailSearch_correctEmail" duration-ms="1491" started-at="2019-03-19T00:10:48Z" description="Email Valid Search criteria-Contains " finished-at="2019-03-19T00:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailSearch_correctEmail -->
+        <test-method status="PASS" signature="validUserNameSearch_correctUsername()[pri:0, instance:com.selenium.webproject.testcases.filter_TestScenarios@4f80542f]" name="validUserNameSearch_correctUsername" duration-ms="1353" started-at="2019-03-19T00:10:49Z" description="Username Valid Search criteria-Contains " finished-at="2019-03-19T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserNameSearch_correctUsername -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.webproject.testcases.filter_TestScenarios@4f80542f]" name="closeBrowser" is-config="true" duration-ms="142" started-at="2019-03-19T00:10:51Z" description="Closing the browser" finished-at="2019-03-19T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.webproject.testcases.filter_TestScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

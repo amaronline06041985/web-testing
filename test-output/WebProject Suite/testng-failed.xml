@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [WebProject Suite]">
+  <test thread-count="5" verbose="10" name="NewUserCreation Test(failed)">
+    <classes>
+      <class name="com.selenium.webproject.testcases.newUserCreation_TestScenarios">
+        <methods>
+          <include name="newUserCreationTest"/>
+        </methods>
+      </class> <!-- com.selenium.webproject.testcases.newUserCreation_TestScenarios -->
+    </classes>
+  </test> <!-- NewUserCreation Test(failed) -->
+</suite> <!-- Failed suite [WebProject Suite] -->

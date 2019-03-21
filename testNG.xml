@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebProject Suite" verbose="10">
+ 
+  <test name="NewUserCreation Test" preserve-order="true">
+    <classes>
+      <class name="com.selenium.webproject.testcases.newUserCreation_TestScenarios">
+        <methods>
+          <include name="newUserCreationTest" />
+          <include name="invalidLoginTest_EmptyUserName" />
+          <include name="invalidLoginTest_EmptyPassword" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

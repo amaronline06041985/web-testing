@@ -50,18 +50,6 @@ public class BasePage {
 			
 		}	
 	}
-	//Test data validation
-	public static Boolean isDataValid(String user_name,String password,String email){
-		if(
-		   (user_name !=null && !user_name.isEmpty()) &&
-		   (password !=null && !password.isEmpty()) &&
-		   (email !=null && !email.isEmpty())
-		   ){
-			return true;
-		}
-		else 
-			return false;
-	}
 	
 	//Click function
 	public void click(String xpathKey){
